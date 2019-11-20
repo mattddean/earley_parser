@@ -1,0 +1,211 @@
+{
+    "S": {
+        "part_of_speech": false,
+        "terminal": false,
+        "ends": [
+            ["NP", "VP"],
+            ["Aux", "NP", "VP"],
+            ["VP"]
+        ]
+    },
+    "NP": {
+        "part_of_speech": false,
+        "terminal": false,
+        "ends": [
+            ["Pronoun"],
+            ["ProperNoun"],
+            ["Det", "Nominal"]
+        ]
+    },
+    "Nominal": {
+        "part_of_speech": false,
+        "terminal": false,
+        "ends": [
+            ["Nominal", "Noun"],
+            ["Nominal", "PP"],
+            ["Noun"]
+        ]
+    },
+    "VP": {
+        "part_of_speech": false,
+        "terminal": false,
+        "ends": [
+            ["Verb"],
+            ["Verb", "NP"],
+            ["Verb", "NP", "PP"],
+            ["Verb", "PP"],
+            ["VP", "PP"]
+        ]
+    },
+    "PP": {
+        "part_of_speech": false,
+        "terminal": false,
+        "ends": [
+            ["Proposition", "NP"]
+        ]
+    },
+    "Det": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["that"],
+            ["this"],
+            ["a"]
+        ]
+    },
+    "Noun": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["book"],
+            ["flight"],
+            ["meal"],
+            ["money"]
+        ]
+    },
+    "Verb": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["book"],
+            ["include"],
+            ["prefer"]
+        ]
+    },
+    "Pronoun": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["I"],
+            ["she"],
+            ["me"]
+        ]
+    },
+    "ProperNoun": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["Houston"],
+            ["NWA"]
+        ]
+    },
+    "Aux": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["does"]
+        ]
+    },
+    "Preposition": {
+        "part_of_speech": true,
+        "terminal": false,
+        "ends": [
+            ["from"],
+            ["to"],
+            ["on"],
+            ["near"],
+            ["through"]
+
+        ]
+    },
+    "that": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "this": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "a": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "book": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "flight": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "meal": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "money": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "include": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "prefer": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "I": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "she": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "me": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "Houston": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "NWA": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "does": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "from": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "to": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "on": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "near": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    },
+    "through": {
+        "part_of_speech": false,
+        "terminal": true,
+        "ends": []
+    }
+}
